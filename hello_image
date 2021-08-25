@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
       title: title,
       home: Scaffold(
         appBar: AppBar(
-        title: Text(title),
+          title: Text(title),
         ),
-        body: Image.network('https://picsum.photos/250?image=9'),
+        body: Image.network('https://media-exp1.licdn.com/dms/image/C510BAQFjze8l2QeBgw/company-logo_200_200/0/1583313431335?e=2159024400&v=beta&t=36uO5cwBWa92_bc6YYAKjpJJ1NJpSfJEhVNxTHx8UZw'),
       ),
     );
   }
